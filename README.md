@@ -6,4 +6,6 @@ HTML, CSS, Javascript
 
 # 진행중..
 CSS 미디어처리 완료.
+
+# View
 ![Image](https://github.com/user-attachments/assets/4cc56739-67ac-4fa6-b75c-ac414198c133)
