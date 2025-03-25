@@ -6,7 +6,8 @@ HTML, CSS, Javascript
 
 # 진행상태(80%)
 자바스크립트 수정중(리팩토링 및 필터링 수정해야함)<br>
-html 내용 내이력맞게 수정하기
+html 스킬부분 바 부분 수정하기<br>
+html 내용 내 이력맞게 수정하기
 
 # View
 ![Image](https://github.com/user-attachments/assets/2bb0cf30-5fc2-4554-8b73-15daa7ca8ae4)
