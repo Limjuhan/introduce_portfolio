@@ -1,5 +1,5 @@
 # introduce_portfolio
-자기소개서
+링크 : https://limjuhan.github.io/introduce_portfolio/
 
 # 활용 
 HTML, CSS, Javascript
