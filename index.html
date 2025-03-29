@@ -15,8 +15,11 @@
     <!-- OG (Open Graph Data) -->
     <meta property="og:title" content="주한의 포트폴리오" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="배포후 생성된 URL" />
-    <meta property="og:image" content="배포후에 생성된 이미지 URL" />
+    <meta property="og:url" content="https://limjuhan.github.io/introduce_portfolio/" />
+    <meta
+      property="og:image"
+      content="https://limjuhan.github.io/introduce_portfolio/images/og.webp"
+    />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -214,17 +217,17 @@
           <ul class="categories">
             <li>
               <button class="category category--selected" data-category="all">
-                All <span class="category__count">5</span>
+                All <span class="category__count">1</span>
               </button>
             </li>
             <li>
               <button class="category" data-category="front-end">
-                Font-end <span class="category__count">2</span>
+                Font-end <span class="category__count">1</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="back-end">
-                Back-end <span class="category__count">3</span>
+              <button class="category" data-category="back-end" disabled style="cursor: auto">
+                Back-end <span class="category__count">0</span>
               </button>
             </li>
             <!-- <li>
@@ -235,49 +238,28 @@
           </ul>
           <ul class="projects">
             <li class="project" data-type="front-end">
-              <a href="#" target="_blank">
-                <img src="images/projects/project1.webp" alt="project1" class="project__img" />
+              <a href="https://limjuhan.github.io/introduce_portfolio" target="_blank">
+                <img
+                  src="images/projects/project1.jpg"
+                  alt="project1"
+                  class="project__img"
+                  style="height: 215px"
+                />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>Clone Coding with HTML, CSS</p>
+                  <p>Introduce_portfolio</p>
                 </div>
               </a>
             </li>
-            <li class="project" data-type="front-end">
-              <a href="#" target="_blank">
-                <img src="images/projects/project2.webp" alt="project2" class="project__img" />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #2</h3>
-                  <p>Clone Coding with HTML, CSS</p>
-                </div>
-              </a>
-            </li>
+
             <li class="project" data-type="back-end">
-              <a href="#" target="_blank">
+              <!-- <a href="#" target="_blank">
                 <img src="images/projects/project3.webp" alt="project3" class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #3</h3>
-                  <p>Clone Coding with Java, Spring</p>
+                  <p>수정중..</p>
                 </div>
-              </a>
-            </li>
-            <li class="project" data-type="back-end">
-              <a href="#" target="_blank">
-                <img src="images/projects/project4.webp" alt="project4" class="project__img" />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #4</h3>
-                  <p>Clone Coding with Java, Spring</p>
-                </div>
-              </a>
-            </li>
-            <li class="project" data-type="back-end">
-              <a href="#" target="_blank">
-                <img src="images/projects/project5.webp" alt="project5" class="project__img" />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #5</h3>
-                  <p>Clone Coding with Java, Spring</p>
-                </div>
-              </a>
+              </a> -->
             </li>
           </ul>
         </div>
@@ -288,42 +270,33 @@
         <p class="description">See what they say about me</p>
         <ul class="testimonials">
           <li class="testimonial">
-            <img class="testimonial__img" src="images/testimonials/people1.webp" alt="people1" />
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people1" />
             <div class="testimonial__bubble">
+              <p>시간약속을 잘 지키고 업무에대한 열정이 높아서 함께 일하며 즐거웠다.</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium explicabo eius
-                quas illo. Doloribus totam tenetur itaque reprehenderit ipsum soluta! Quisquam et
-                atque accusamus, libero illo velit rerum eos exercitationem!
-              </p>
-              <p>
-                <a href="#" class="testimonial__bubble__name">James Kim</a>
-                /Google
+                <span class="testimonial__bubble__name">김경덕</span>
+                /전 직장동료
               </p>
             </div>
           </li>
           <li class="testimonial">
-            <img class="testimonial__img" src="images/testimonials/people2.webp" alt="people2" />
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people2" />
             <div class="testimonial__bubble">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi dicta quibusdam
-                nihil sed tempore, explicabo in doloribus assumenda molestiae id iusto mollitia
-                accusamus sint adipisci fuga illo dolor repellendus!
+                업무강도로 인해 지칠때도 긍정적인 마인드가 보기좋았고 함께 근무하며 <br />서로
+                모르는 기술에대해 공부하고 공유하여 좋았다.
               </p>
               <p>
-                <a href="#" class="testimonial__bubble__name">Davie Lee</a>
-                /tong
+                <span class="testimonial__bubble__name">조수환</span>
+                /전 직장동료
               </p>
             </div>
           </li>
           <li class="testimonial">
-            <img class="testimonial__img" src="images/testimonials/people3.webp" alt="people3" />
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people3" />
             <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi dicta quibusdam
-                nihil sed tempore, explicabo in doloribus assumenda molestiae id iusto mollitia
-                accusamus sint adipisci fuga illo dolor repellendus!
-              </p>
-              <p><a href="#" class="testimonial__bubble__name">Siuuu</a> /tong2</p>
+              <p>사람들에게 먼저 다가가서 소통하고 밝게지내 보기 좋았다.</p>
+              <p><span class="testimonial__bubble__name">이초롱</span> /전 직장동료</p>
             </div>
           </li>
         </ul>
