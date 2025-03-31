@@ -28,6 +28,14 @@
   --divider-arrow: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" > <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" ></path> </svg>');
 }
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   /* 패팅,보더가 포함되서 계산하도록 */
   box-sizing: border-box;
@@ -36,10 +44,16 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
+
+/* body {
+  font-family: 'Pretendard-Regular', sans-serif;
+  margin: 0;
+} */
 
 h1,
 h2,
@@ -632,6 +646,9 @@ button:focus {
     margin: 0.5rem;
   }
 
+  .home__container {
+    display: block;
+  }
   .majors {
     flex-direction: column;
     align-items: center;
