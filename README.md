@@ -6,7 +6,7 @@
 
 HTML, CSS, Javascript
 
-# 진행상태(90%)
+#
 
 # View
 
