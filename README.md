@@ -39,9 +39,8 @@
 
 이 포트폴리오를 제작하면서 **순수 웹 기술(HTML, CSS, JavaScript)**만으로도 충분히 매력적이고 기능적인 웹사이트를 만들 수 있다는 것을 다시 한번 깨달았습니다. 특히 **반응형 디자인을 구현**하면서 다양한 CSS 기술과 JavaScript를 활용하여 사용자 경험을 향상시키는 방법을 깊이 있게 학습할 수 있었습니다.
 
----
 
-# View
+## 📸 View
 
 ![Image](https://github.com/user-attachments/assets/2bb0cf30-5fc2-4554-8b73-15daa7ca8ae4)
 
