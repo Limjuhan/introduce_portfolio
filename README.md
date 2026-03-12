@@ -1,46 +1,56 @@
 # Introduce Portfolio
 
+개인 포트폴리오 웹사이트입니다.
+순수 HTML, CSS, JavaScript로 제작되었으며 반응형 레이아웃을 지원합니다.
+
+**[https://limjuhan.github.io/introduce_portfolio/](https://limjuhan.github.io/introduce_portfolio/)**
+
 ---
 
-## 🔗 링크
+## 기술 스택
 
-**[https://limjuhan.github.io/introduce\_portfolio/](https://limjuhan.github.io/introduce_portfolio/)**
+| 구분 | 사용 기술 |
+|------|-----------|
+| Front-end | HTML, CSS, JavaScript |
+| 라이브러리 | TypeIt, Font Awesome |
+| 배포 | GitHub Pages |
 
-> 📱 데스크탑은 물론, **핸드폰에서도 최적화된 화면**으로 저의 포트폴리오를 경험해 보세요!
+---
 
-## 💻 활용 기술 스택
+## 구성
 
-* **HTML** - 웹 페이지의 구조를 설계하는 데 사용되었습니다.
-* **CSS** - 웹 페이지의 스타일링 및 레이아웃을 구성하는 데 활용되었습니다.
-* **JavaScript** - 사용자 인터랙션 및 동적인 기능을 구현하는 데 사용되었습니다.
+- **Home** - 인트로 및 간략한 자기소개
+- **About** - 경력 사항 및 담당 직무 소개
+- **Skills** - 기술 스택 및 사용 도구
+- **My Work** - 진행한 프로젝트 목록 (카테고리 필터링 지원)
+- **Testimonials** - 전 직장동료 추천사
+- **Contact** - 연락처 및 GitHub 링크
 
-## 🚀 포트폴리오 소개
+---
 
-이 포트폴리오는 저의 **자기소개, 기술 스택, 그리고 다양한 프로젝트들을 한눈에 확인**할 수 있도록 구성한 웹사이트입니다.
-**순수 HTML, CSS, JavaScript**만으로도 훌륭한 사용자 경험을 제공할 수 있다는 것을 증명하고자 했습니다.
+## 프로젝트 목록
 
-**주요 특징:**
+| # | 프로젝트명 | 분류 | 링크 |
+|---|-----------|------|------|
+| 1 | Introduce Portfolio | Front-end | [바로가기](https://limjuhan.github.io/introduce_portfolio/) |
+| 2 | LMS Project | Back-end | [GitHub](https://github.com/Limjuhan/LMS-Project) |
+| 3 | Groupware | Back-end | [GitHub](https://github.com/Limjuhan/groupware) |
+| 4 | Auto-Ledger | Back-end | [GitHub](https://github.com/Limjuhan/auto-leger) |
 
-* **자기소개:** 저의 개발 여정, 강점, 그리고 앞으로의 목표를 소개합니다.
-* **프로젝트:** 제가 참여하거나 진행했던 다양한 프로젝트들을 소개하며, 각 프로젝트별 상세 페이지 링크를 제공하여 더 자세한 내용을 확인할 수 있습니다.
-* **반응형 디자인:** **별도의 라이브러리 없이** 순수 CSS와 JavaScript를 사용하여 **다양한 화면 크기에 최적화된 동적인 레이아웃**을 제공합니다. 언제 어디서든 편리하게 포트폴리오를 확인할 수 있습니다.
-* **깔끔하고 직관적인 UI:** 사용자 경험을 최우선으로 고려하여 쉽고 편안하게 정보를 탐색할 수 있도록 디자인했습니다.
+---
 
-## ✨ 둘러보기
+## 경력
 
-포트폴리오를 방문하시면 다음 섹션들을 확인하실 수 있습니다.
+| 기간 | 회사 | 직무 |
+|------|------|------|
+| 2021.05 - 2023.11 | 와이즈인포텍 | 웹개발 |
+| 2024.11 - 2025.02 | 프리랜서 | 웹개발 |
+| 2025.07 - 2025.12 | 피나클나인 | 백엔드/서버 개발 |
+| 2025.12 - 2026.03 | 코베이옥션 | 웹개발/운영 |
 
-* **Home:** 저에 대한 간략한 소개와 주요 프로젝트들을 미리 볼 수 있습니다.
-* **About:** 저의 성장 과정, 기술 스택을 소개합니다.
-* **Projects:** 제가 진행했던 다양한 프로젝트들을 목록 형태로 보여주며, 각 프로젝트를 클릭하면 상세 정보 페이지로 이동합니다. (각 프로젝트 페이지 링크 확인!)
-* **Contact:** 저에게 연락할 수 있는 방법을 안내합니다.
+---
 
-## 📚 제작 후기
-
-이 포트폴리오를 제작하면서 **순수 웹 기술(HTML, CSS, JavaScript)**만으로도 충분히 매력적이고 기능적인 웹사이트를 만들 수 있다는 것을 다시 한번 깨달았습니다. 특히 **반응형 디자인을 구현**하면서 다양한 CSS 기술과 JavaScript를 활용하여 사용자 경험을 향상시키는 방법을 깊이 있게 학습할 수 있었습니다.
-
-
-## 📸 View
+## View
 
 ![Image](https://github.com/user-attachments/assets/2bb0cf30-5fc2-4554-8b73-15daa7ca8ae4)
 
