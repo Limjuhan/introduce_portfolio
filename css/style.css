@@ -303,6 +303,21 @@ button:focus {
   font-size: 0.8rem;
 }
 
+.job__img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.job__icon {
+  font-size: 1.8rem;
+  color: var(--color-accent);
+  width: 50px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
 /* Skills */
 #skills {
   position: relative;
@@ -468,6 +483,21 @@ button:focus {
   width: 100%;
 }
 
+.project__placeholder {
+  width: 100%;
+  height: 215px;
+  background: linear-gradient(135deg, var(--color-gray) 0%, var(--color-primary) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__placeholder__icon {
+  font-size: 4rem;
+  color: var(--color-accent);
+  opacity: 0.5;
+}
+
 .project__metadata {
   position: absolute;
   top: 0;
@@ -487,6 +517,15 @@ button:focus {
 .project__metadata:hover {
   opacity: 0.8;
   transform: translateY(0px);
+}
+
+.project__metadata--visible {
+  opacity: 0.75;
+  transform: translateY(0px);
+}
+
+.project__metadata--visible:hover {
+  opacity: 0.95;
 }
 
 /* 가상요소 추가 */
