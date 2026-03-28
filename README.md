@@ -35,7 +35,6 @@
 | 1 | Introduce Portfolio | Front-end | [바로가기](https://limjuhan.github.io/introduce_portfolio/) |
 | 2 | LMS Project | Back-end | [GitHub](https://github.com/Limjuhan/LMS-Project) |
 | 3 | Groupware | Back-end | [GitHub](https://github.com/Limjuhan/groupware) |
-| 4 | Auto-Ledger | Back-end | [GitHub](https://github.com/Limjuhan/auto-leger) |
 
 ---
 
