@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050a13;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1628;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#03e8f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#03e8f9;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fd6413;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fd6413;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="600" height="340" fill="url(#bgGrad)" />
+
+  <!-- 격자 패턴 -->
+  <g stroke="#03e8f9" stroke-width="0.3" opacity="0.1">
+    <line x1="0" y1="40" x2="600" y2="40"/>
+    <line x1="0" y1="80" x2="600" y2="80"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="160" x2="600" y2="160"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="280" x2="600" y2="280"/>
+    <line x1="0" y1="320" x2="600" y2="320"/>
+    <line x1="60" y1="0" x2="60" y2="340"/>
+    <line x1="120" y1="0" x2="120" y2="340"/>
+    <line x1="180" y1="0" x2="180" y2="340"/>
+    <line x1="240" y1="0" x2="240" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="360" y1="0" x2="360" y2="340"/>
+    <line x1="420" y1="0" x2="420" y2="340"/>
+    <line x1="480" y1="0" x2="480" y2="340"/>
+    <line x1="540" y1="0" x2="540" y2="340"/>
+  </g>
+
+  <!-- 상단 타이틀 바 -->
+  <rect x="0" y="0" width="600" height="4" fill="#03e8f9" opacity="0.8"/>
+
+  <!-- AI 아이콘 (뇌 모양 원) -->
+  <circle cx="300" cy="90" r="38" fill="none" stroke="#03e8f9" stroke-width="1.5" opacity="0.5" filter="url(#glow)"/>
+  <circle cx="300" cy="90" r="26" fill="none" stroke="#03e8f9" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="97" font-family="monospace" font-size="26" fill="#03e8f9" text-anchor="middle" filter="url(#glow)">AI</text>
+
+  <!-- 연결선 (AI → Front / Back) -->
+  <line x1="262" y1="110" x2="155" y2="175" stroke="#03e8f9" stroke-width="1" stroke-dasharray="5,3" opacity="0.6"/>
+  <line x1="338" y1="110" x2="445" y2="175" stroke="#fd6413" stroke-width="1" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Front-end 카드 -->
+  <rect x="60" y="175" width="180" height="100" rx="6" fill="#0d1f38" stroke="#03e8f9" stroke-width="1.5" opacity="0.9"/>
+  <rect x="60" y="175" width="180" height="4" rx="2" fill="url(#cyanGrad)"/>
+  <text x="150" y="207" font-family="monospace" font-size="12" fill="#03e8f9" text-anchor="middle" font-weight="bold">Front-end</text>
+  <text x="150" y="225" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">HTML / CSS / JS</text>
+  <text x="150" y="242" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">UI 설계 · 화면 기획</text>
+  <text x="150" y="259" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">컴포넌트 구조 설계</text>
+
+  <!-- Back-end 카드 -->
+  <rect x="360" y="175" width="180" height="100" rx="6" fill="#1f0d0d" stroke="#fd6413" stroke-width="1.5" opacity="0.9"/>
+  <rect x="360" y="175" width="180" height="4" rx="2" fill="url(#orangeGrad)"/>
+  <text x="450" y="207" font-family="monospace" font-size="12" fill="#fd6413" text-anchor="middle" font-weight="bold">Back-end</text>
+  <text x="450" y="225" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">Java / Spring / DB</text>
+  <text x="450" y="242" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">API 설계 · ERD 기획</text>
+  <text x="450" y="259" font-family="monospace" font-size="9" fill="#8899aa" text-anchor="middle">서버 아키텍처 설계</text>
+
+  <!-- 하단 라벨 -->
+  <text x="300" y="310" font-family="monospace" font-size="13" fill="#03e8f9" text-anchor="middle" opacity="0.8" filter="url(#glow)">AI-Assisted Planning Document</text>
+  <text x="300" y="328" font-family="monospace" font-size="9" fill="#556677" text-anchor="middle">Front-end · Back-end 기획서</text>
+
+  <!-- 하단 라인 -->
+  <rect x="0" y="336" width="600" height="4" fill="#fd6413" opacity="0.5"/>
+</svg>

@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>juhan&#39;s Portfolio</title>
+    <meta name="description" content="Portfolio web developer juhan" />
+    <meta name="author" content="juhan" />
+
+    <!-- 타이틀에 사진 등록 -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="주한의 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://limjuhan.github.io/introduce_portfolio/" />
+    <meta
+      property="og:image"
+      content="https://limjuhan.github.io/introduce_portfolio/images/og.webp"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/21269e66d0.js" crossorigin="anonymous"></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">임주한</a></h1>
+      </div>
+      <nav class="header__nav">
+        <button class="header__menuBtn" aria-label="navigation menu toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li>
+            <a class="header__menu__item" href="#testimonial">Testimonial</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <div class="home__container max-container">
+          <img class="home__avatar" src="images/profile.png" alt="profile" />
+          <div>
+            <h2 class="home__title" aria-label="안녕하세요. 웹개발자 임주한입니다.">
+              안녕하세요. <br />
+              <strong class="home__title--strong">웹개발자</strong> 임주한입니다.
+            </h2>
+            <p class="home__description">
+              대한민국 서울시 강서구에 거주중이며, 웹개발 일을 하고있습니다.
+            </p>
+            <a class="home__contact" href="#contact">Contact ME</a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="description">
+          어려움을 해결하고 성장을 추구하며, 팀과 함께 목표를 이루는 과정을 즐기는 개발자입니다.
+          <br />
+          저의 커리어는 항상 새로운 기술과 환경에 적응하며 도전하는 과정의 연속이었습니다. <br />
+          저는 협업과 성실함, 그리고 지속적인 자기계발을 통해 문제 해결 능력을 키워왔으며, <br />
+          이를 기반으로 고객과 팀에 가치를 제공할 수 있는 개발자가 되기 위해 노력해왔습니다.
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>JavaScript, Jquery</p>
+          </li>
+          <!-- <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
+                    <p>Android, iOS, Flutter, Java</p>
+                </li> -->
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Java, Spring</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <i class="fa-solid fa-building job__icon"></i>
+            <div>
+              <p class="job__name">코베이옥션</p>
+              <p class="job__period">2025.12 - 2026.03 · 웹개발/운영</p>
+            </div>
+          </li>
+          <li class="job">
+            <i class="fa-solid fa-building job__icon"></i>
+            <div>
+              <p class="job__name">피나클나인</p>
+              <p class="job__period">2025.07 - 2025.12 · 백엔드/서버 개발</p>
+            </div>
+          </li>
+          <li class="job">
+            <i class="fa-solid fa-laptop-code job__icon"></i>
+            <div>
+              <p class="job__name">프리랜서</p>
+              <p class="job__period">2024.11 - 2025.02 · 웹개발</p>
+            </div>
+          </li>
+          <li class="job">
+            <!--<img src="images/jobs/wise.jpg" alt="wise logo" class="job__img" />-->
+            <i class="fa-solid fa-building job__icon"></i>
+            <div>
+              <p class="job__name">와이즈인포텍</p>
+              <p class="job__period">2021.5 - 2023.11 · 웹개발</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">My Skills</h2>
+          <p class="description">Skills & Attributes</p>
+          <p></p>
+          <div class="skills-container">
+            <section class="skills__coding">
+              <h3 class="skills__title">Coding Skills</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 100%"></div>
+                  </div> -->
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div> -->
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Javascript</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 98%"></div>
+                  </div> -->
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Java</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 98%"></div>
+                  </div> -->
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Spring</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 98%"></div>
+                  </div> -->
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Oracle, MySQL</span>
+                    <span></span>
+                  </div>
+                  <!-- <div class="bar__bg">
+                    <div class="bar__value" style="width: 98%"></div>
+                  </div> -->
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>IntelliJ</li>
+                <li>Eclipse</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Etc</h3>
+              <ul>
+                <li>Git</li>
+                <!-- <li></li> -->
+                <!-- <li></li> -->
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My work</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                All <span class="category__count">5</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="back-end">
+                Back-end <span class="category__count">3</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="etc">
+                Etc <span class="category__count">1</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="https://limjuhan.github.io/introduce_portfolio" target="_blank">
+                <img
+                  src="images/projects/project1.jpg"
+                  alt="project1"
+                  class="project__img"
+                  style="height: 215px"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Introduce Portfolio</h3>
+                  <p>개인 포트폴리오 사이트 · HTML, CSS, Vanilla JS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="https://github.com/Limjuhan/LMS-Project" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="LMS-Project"
+                  class="project__img"
+                  style="height: 215px"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">LMS Project</h3>
+                  <p>학습관리시스템 · Java, Spring, Oracle</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="https://github.com/Limjuhan/item_finder" target="_blank">
+                <img
+                  src="images/projects/itemFinderMain.png"
+                  alt="item_finder"
+                  class="project__img"
+                  style="height: 215px"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Item Finder</h3>
+                  <p>패션 가격비교 웹앱 · Java, Spring</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="https://github.com/Limjuhan/auto-leger" target="_blank">
+                <img
+                  src="images/projects/project4.png"
+                  alt="auto-leger"
+                  class="project__img"
+                  style="height: 215px"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Auto Leger</h3>
+                  <p>가계부 세미프로젝트</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="etc">
+              <a href="https://github.com/Limjuhan/slk_project" target="_blank">
+                <img
+                  src="images/projects/project4.svg"
+                  alt="AI project"
+                  class="project__img"
+                  style="height: 215px"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">프로젝트 설계</h3>
+                  <p>Claude활용한 프로젝트 설계</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Testimonails -->
+      <section id="testimonial" class="section max-container">
+        <h2 class="title">Testimonials</h2>
+        <p class="description">See what they say about me</p>
+        <ul class="testimonials">
+          <li class="testimonial">
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people1" />
+            <div class="testimonial__bubble">
+              <p>시간약속을 잘 지키고 업무에대한 열정이 높아서 함께 일하며 즐거웠다.</p>
+              <p>
+                <span class="testimonial__bubble__name">김경덕</span>
+                /전 직장동료
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people2" />
+            <div class="testimonial__bubble">
+              <p>
+                업무강도로 인해 지칠때도 긍정적인 마인드가 보기좋았고 함께 근무하며 <br />서로
+                모르는 기술에대해 공부하고 공유하여 좋았다.
+              </p>
+              <p>
+                <span class="testimonial__bubble__name">조수환</span>
+                /전 직장동료
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img class="testimonial__img" src="images/testimonials/people1.png" alt="people3" />
+            <div class="testimonial__bubble">
+              <p>사람들에게 먼저 다가가서 소통하고 밝게지내 보기 좋았다.</p>
+              <p><span class="testimonial__bubble__name">이초롱</span> /전 직장동료</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <!-- 커서 올릴시 title 의 값이 설명문구로 보임 -->
+        <a class="arrow-up" href="#home" title="back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <h2 class="title">Contact Me</h2>
+      <div class="max-container">
+        <p class="description"><a href="mailto:Starsting1@gmail.com">Starsting1@gmail.com</a></p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/Limjuhan"
+              target="_blank"
+              title="my github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <!-- <li>
+                <a href="https://github/com/Limjuhan" target="_blank" title="my github link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li> -->
+        </ul>
+        <!-- <p>
+            <i class="fa-solid fa-circle-right"></i>Limjuhan - All Right Reserved
+        </p> -->
+      </div>
+    </footer>
+  </body>
+</html>
