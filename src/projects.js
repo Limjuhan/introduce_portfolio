@@ -1,13 +1,20 @@
 'use strict';
 
-// 프로젝트 필터링 관련 로직 처리
 const categories = document.querySelector('.categories');
 const projects = document.querySelectorAll('.project');
 const projectsContainer = document.querySelector('.projects');
 
+// 카테고리별 카운트 자동 계산
+document.querySelectorAll('.category').forEach((btn) => {
+  const type = btn.dataset.category;
+  const count = type === 'all'
+    ? projects.length
+    : [...projects].filter((p) => p.dataset.type === type).length;
+  btn.querySelector('.category__count').textContent = count;
+});
+
 categories.addEventListener('click', (event) => {
   const filter = event.target.dataset.category;
-  console.log(event.target);
 
   if (filter == null) {
     return;
