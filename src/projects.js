@@ -5,13 +5,20 @@ const projects = document.querySelectorAll('.project');
 const projectsContainer = document.querySelector('.projects');
 
 // 카테고리별 카운트 자동 계산
-document.querySelectorAll('.category').forEach((btn) => {
-  const type = btn.dataset.category;
-  const count = type === 'all'
-    ? projects.length
-    : [...projects].filter((p) => p.dataset.type === type).length;
-  btn.querySelector('.category__count').textContent = count;
-});
+function updateCounts() {
+  const allProjects = document.querySelectorAll('.project');
+  document.querySelectorAll('.category').forEach((btn) => {
+    const type = btn.dataset.category;
+    const countEl = btn.querySelector('.category__count');
+    if (!countEl || !type) return;
+    const count = type === 'all'
+      ? allProjects.length
+      : [...allProjects].filter((p) => p.dataset.type === type).length;
+    countEl.textContent = count;
+  });
+}
+
+updateCounts();
 
 categories.addEventListener('click', (event) => {
   const filter = event.target.dataset.category;
